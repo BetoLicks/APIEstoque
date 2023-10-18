@@ -1,0 +1,15 @@
+{
+    "name": "betolicks/api-ususarios",
+    "autoload": {
+        "psr-4": {
+            "Betolicks\\ApiUsusarios\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Beto Licks",
+            "email": "betaolicks@gmail.com"
+        }
+    ],
+    "require": {}
+}
