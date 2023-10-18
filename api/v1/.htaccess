@@ -1,0 +1,9 @@
+
+
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILELANME} !-f
+RewriteCond %{REQUEST_FILELANME} !-d
+RewriteRule ^(.*)$ index.php?path=$1 [QSA,L]
+
+
