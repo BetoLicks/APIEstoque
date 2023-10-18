@@ -6,6 +6,7 @@ Exemplo de API em PHP sem uso de Framework com conexão a banco de dados.
 
 * PHP
 * MySQL
+* JWT
 
 ## ✒️ Autor
 

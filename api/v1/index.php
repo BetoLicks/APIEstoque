@@ -6,6 +6,7 @@ header("Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers
 date_default_timezone_set("America/Sao_Paulo");
 
 require_once "classes/Estoque.php";
+require_once "classes/Autentica.php";
 
 class Rest{
    public static function abrirUrl($req){
@@ -37,17 +38,3 @@ class Rest{
 if (isset($_REQUEST)){
    echo Rest::abrirUrl($_REQUEST);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/// https://www.youtube.com/watch?v=pa6QwLWG12Q
